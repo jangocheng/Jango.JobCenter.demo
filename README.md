@@ -34,8 +34,10 @@ dotnet add package Jango.JobCenter --version 1.0.0
 
 [分布式系统架构之快速构建你的任务调度中心](https://www.cnblogs.com/Sages/p/13322317.html)
 
->github :https://github.com/jangocheng/Jango.JobCenter.demo.git 
+>github :https://github.com/jangocheng/Jango.JobCenter.demo.git
+
 >码云	:https://gitee.com/sagecity/Jango.JobCenter.Demo.git
+
 
 
 分布式系统中，我们经常会遇到定时执行任务，而这些定时任务中，多数情况都是需要执行一些http请求。
