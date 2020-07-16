@@ -1,8 +1,8 @@
 **jango.jobcenter demo**
 
-1. import Jango.JobCenter
- <PackageReference Include="Jango.JobCenter" Version="1.0.0" />
- or dotnet add package Jango.JobCenter --version 1.0.0
+1. import Jango.JobCenter  
+ https://www.nuget.org/packages/Jango.JobCenter
+dotnet add package Jango.JobCenter --version 1.0.0
 
 2. edit Starup.cs
    add using Jango.JobCenter;
