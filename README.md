@@ -1,5 +1,4 @@
-#Jango.JobCenter.demo
-jango.jobcenter demo
+**jango.jobcenter demo**
 
 1. import Jango.JobCenter
  <PackageReference Include="Jango.JobCenter" Version="1.0.0" />
