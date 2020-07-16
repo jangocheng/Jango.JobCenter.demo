@@ -8,8 +8,7 @@ jango.jobcenter demo
 2. edit Starup.cs
    add using Jango.JobCenter;
    
-   public void ConfigureServices(IServiceCollection services)
-        {
+ 
             services.AddControllers();
 
             // add jango jobcenter
@@ -19,20 +18,11 @@ jango.jobcenter demo
             //or use Mongo /  sqlserver / mysql ...
             //services.AddJangoJobCenter(x => x.UseMongoStorage("...."));
         
-        }
+       
 3. add  app.UseJangoJobCenter()  before UseEndpoints;
    
-     public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
-        {
-            if (env.IsDevelopment())
-            {
-                app.UseDeveloperExceptionPage();
-            }
+    
 
-            app.UseHttpsRedirection();
-
-            app.UseRouting();
-            app.UseAuthorization();
 
             /// use jango jobcenter
             app.UseJangoJobCenter();
@@ -41,4 +31,3 @@ jango.jobcenter demo
             {
                 endpoints.MapControllers();
             });
-        }
